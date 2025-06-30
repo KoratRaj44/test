@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b); /* orange-pink gradient */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+}
+
+h1 {
+  color: white;
+  font-size: 4em;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  animation: fadeInOut 4s infinite alternate;
+}
+
+/* Smooth fade animation */
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: scale(0.95); }
+  100% { opacity: 1; transform: scale(1.05); }
+}
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b); /* orange-pink gradient */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+}
+
+h1 {
+  color: white;
+  font-size: 4em;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  animation: fadeInOut 4s infinite alternate;
+}
+
+/* Smooth fade animation */
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: scale(0.95); }
+  100% { opacity: 1; transform: scale(1.05); }
+}
